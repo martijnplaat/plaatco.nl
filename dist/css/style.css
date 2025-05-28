@@ -1702,7 +1702,8 @@ main {
 .footer-brand,
 .footer-links,
 .footer-social-links {
-	margin-bottom: 24px
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 
 .footer-links li+li,
@@ -1716,34 +1717,6 @@ main {
 
 .footer-social-links li a {
 	padding: 8px
-}
-
-@media (min-width: 641px) {
-	.site-footer-inner {
-		justify-content: space-between
-	}
-
-	.footer-brand,
-	.footer-links,
-	.footer-social-links,
-	.footer-copyright {
-		flex: 50%
-	}
-
-	.footer-brand,
-	.footer-copyright {
-		justify-content: flex-start
-	}
-
-	.footer-links,
-	.footer-social-links {
-		justify-content: flex-end
-	}
-
-	.footer-links {
-		order: 1;
-		margin-bottom: 0
-	}
 }
 
 .gallery {
